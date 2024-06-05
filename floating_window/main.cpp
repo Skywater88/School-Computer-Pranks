@@ -35,7 +35,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, PSTR lpCmdLine,
     HWND hStatic = CreateWindowEx(
         0,
         "STATIC",
-        "\n\n\n!!!HATA OLUÞTU!!!",
+        "\n\n\n!!!ERROR!!!",
         WS_CHILD | WS_VISIBLE | SS_CENTER,
         0, 0, 300, 150,
         hwnd,
